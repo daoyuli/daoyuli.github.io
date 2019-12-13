@@ -2,9 +2,8 @@
 There is only one heroism in the world: to see the world as it is and to love it. 
 
 
-## As for me
+## About me
+PhD student @ BIT \n
+Computer Vision & Computational Imaging \n
 
-### PhD student @ BIT
-### Computer Vision & Computational Imaging
-
-### https://zhuanlan.zhihu.com/ComputationalPhotography
+<https://zhuanlan.zhihu.com/ComputationalPhotography>
