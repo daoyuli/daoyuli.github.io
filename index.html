@@ -1,167 +1,139 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>-->
-    <link rel="stylesheet" href="./Files/bootstrap.min.css">
-    <!-- <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <!-- <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css -->
-    <meta name="robots" content="index, follow" />
-    <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="keywords"
-        content="Homepage, Daoyu Li">
-    <link rel="stylesheet" href="./Files/jemdoc.css" type="text/css" />
-    <script src="jquery.min.js"></script>
-    <link rel="shortcut icon" href="./Files/favicon.jpg">
-    <title>Daoyu Li Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Daoyu Li, Homepage, Computational Imaging, Computer Vision">
+    
+    <!-- 统一资源引用 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <!-- 本地资源 -->
+    <link rel="stylesheet" href="./Files/jemdoc.css">
+    <link rel="icon" type="image/x-icon" href="./Files/favicon.ico">
+    
+    <title>Daoyu Li - Homepage</title>
+    
     <style>
-        .mcontainer {
+        .profile-section {
             display: flex;
-            align-items: center; /* Vertically center items */
+            align-items: center;
+            gap: 2rem;
+            margin: 2rem 0;
         }
-        .mcontainer img {
-            height: 20px; /* Set image height */
-            margin-left: 10px; /* Space between text and image */
-            margin-top: 4px;
+
+        .profile-photo {
+            height: 175px;
+            border-radius: 5px;
+        }
+
+        .badge-group {
+            display: flex;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .publication-item {
+            margin: 1.2rem 0;
+            padding-left: 1.5rem;
+            text-indent: -1.5rem;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+            margin: 2rem 0 1rem;
         }
     </style>
 </head>
 
+<body class="container-lg">
+    <header class="profile-section">
+        <img src="./Files/photo.jpg" alt="Daoyu Li's profile photo" class="profile-photo">
+        <div>
+            <h1>
+                <i class="fas fa-graduation-cap"></i>
+                Daoyu Li 
+                <span style="font-family: 'Microsoft YaHei';">李道钰</span>
+            </h1>
+            
+            <div class="badge-group">
+                <span class="badge bg-primary">Computational Imaging</span>
+                <span class="badge bg-success">Computer Vision</span>
+                <span class="badge bg-info">Deep Learning</span>
+            </div>
 
-<body>
-    <a id="home" class="anchor"></a>
+            <div class="mt-3">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i> Beijing, China<br>
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:DaoyuLi@outlook.com" class="text-decoration-none">
+                        DaoyuLi@outlook.com
+                    </a>
+                </p>
+                
+                <div class="badge-group">
+                    <a href="https://scholar.google.com/citations?user=gc59YSkAAAAJ" 
+                       target="_blank" 
+                       class="btn btn-outline-dark btn-sm">
+                        <i class="fas fa-graduation-cap"></i> Google Scholar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <div id="container">
-        <div class="container">
+    <section>
+        <h2 id="publications" class="section-title">
+            <i class="fas fa-book"></i> Publications
+        </h2>
 
-            <table class="imgtable">
-                <tr>
-                    <td>
-                        <a href="./"><img src="./Files/photo.jpg" alt="" height="175px" /></a>&nbsp;
-                    </td>
-                    <td align="left">
-                        <p class="mcontainer">
-                            <a href="./">
-                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                <font size="4">Dr. Daoyu Li (</font>
-                                <font size="4" ; font style="font-family:Microsoft YaHei">李道钰</font>
-                                  </a>
-                            </a><br />
-                        </p>
-                            <br /><br />
-                            <a Computional Imaging: High-speed Imaging, Spectral Imaging;</a><br />
-                            <a Computer Vision: Demosaic, Super resolution, White balance;</a><br />
-                            <a Deep Learning: Efficient learning, fusion of optimization and neural networks;</a><br />
-                            <br /> Location: Beijing, China
-                            <br />
-                            <div>
-                                <br />
-                                <br /> Email: <a href=mailto:DaoyuLi@outlook.com>DaoyuLi@outlook.com</a>
-                                <br />
-                                <br />
-                                [<a href="https://scholar.google.com/citations?user=gc59YSkAAAAJ&hl=zh-CN" target="_blank">Google
-                                    Scholar</a>]
-                                </div>
-                    </td>
-                </tr>
-            </table>
+        <div class="publication-list">
+            <div class="publication-item">
+                <strong>Daoyu Li</strong>#, Yibo Feng#, et al. 
+                "Linear optimization of neurons (LION) for computational photography augmentation." 
+                <em>Optics and Laser Technology</em>, 2025.
+            </div>
 
-            <A NAME="Publications">
-                <h2><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;Publications</h2>
-            </A>
+            <div class="publication-item">
+                <strong>Daoyu Li</strong>#, Hanwen Xu#, et al.
+                "Efficient high-fidelity global low-rank optimization for multispectral demosaicing."
+                <em>IEEE Transactions on Multimedia</em>, 2025.
+            </div>
 
-            <style>
-                .pcontainer {
-                    display: flex;
-                    align-items: center; /* Vertically center items */
-                    text-indent: -2.0rem;
-                    margin-left: 0rem;
-                }
-                .pcontainer img {
-                    height: 18px; /* Set image height */
-                    margin-left: 5px; /* Space between text and image */
-                    margin-top: 0px;
-                    margin-bottom: -3px;
-                }
-            </style>
+            <div class="publication-item">
+                Jinxuan Wu#, <strong>Daoyu Li</strong>#, et al.
+                "High-speed spectral imaging via multispectral pulse illumination and temporal-spectral decoupling."
+                <em>Optics Letters</em>, 2025.
+                <a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-3-972" 
+                   target="_blank"
+                   class="badge bg-primary text-decoration-none">
+                    Link
+                </a>
+            </div>
+        </div>
+    </section>
 
-            <font size="3">
-                <ul>
-                    <p class="pcontainer">
-                        <span><b>Daoyu Li</b>#, Yibo Feng#, Lu Li, Yiming Li, Chao Deng*, Liheng Bian*, "Linear optimization of neurons (LION) for computational photography augmentation," <i>Optics and Laser Technology</i>, 2025, vol. xx, no. xx, pp. xx.
-                        </span>
-                    </p>
+    <section>
+        <h2 id="awards" class="section-title">
+            <i class="fas fa-award"></i> Awards
+        </h2>
+        
+        <ul class="list-unstyled">
+            <li class="mb-2">
+                <i class="fas fa-trophy text-warning"></i>
+                2022 ECCV MIPI Challenge - 4th Place
+                <span class="text-muted">（ECCV MIPI挑战赛第4名）</span>
+            </li>
+        </ul>
+    </section>
 
-                    <p class="pcontainer">
-                        <span><b>Daoyu Li</b>#, Hanwen Xu#, Miao Cao, Xin Yuan, Liheng Bian*, "Efficient high-fidelity global low-rank optimization for multispectral demosaicing," <i>IEEE Transactions on Multimedia</i>, 2025, vol. xx, no. xx, pp. xx.
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span>Jinxuan Wu#, <b>Daoyu Li</b>#, Jiajun Zhao, Hanwen Xu, Yuzhe Zhang, Liheng Bian*, "High-speed spectral imaging via multispectral pulse illumination and temporal-spectral decoupling," <i>Optics Letters</i>, 2025, vol. 50, no. 3, pp. 972-975.
-                            [<a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-3-972" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span><b>Daoyu Li</b>, Jinxuan Wu, Jiajun Zhao, Hanwen Xu, Liheng Bian*, "SpectraTrack: Megapixel, Hundred-fps, and Thousand-channel Hyperspectral Imaging," <i>Nature Communications</i>, 2024, vol. 15, no. 9459, pp. 1-10.
-                            [<a href="https://www.nature.com/articles/s41467-024-53747-8" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span>Liheng Bian*#, <b>Daoyu Li</b>#, Shuoguang Wang#, Chunyang Teng, Jinxuan Wu, Huteng Liu, Hanwen Xu, Xuyang Chang, Guoqiang Zhao, Shiyong Li*, Jun Zhang*, "Towards large-scale single-shot millimeter-wave imaging for low-cost security inspection," <i>Nature Communications</i>, 2024, vol. 15, no. 6459, pp. 1-11.
-                            [<a href="https://www.nature.com/articles/s41467-024-50288-y" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span><b>Daoyu Li</b>#, Lu Li, Bin Li, Liheng Bian*, "Generalized Imaging Augmentation via Linear Optimization of Neurons," <i>British Machine Vision Conference (BMVC)</i>, 2023.
-                            [<a href="https://proceedings.bmvc2023.org/315/" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span>Rong Yan#, <b>Daoyu Li</b>#, Xinrui Zhan, Xuyang Chang, Jun Yan, Pengyu Guo, Liheng Bian*, "Sparse single-pixel imaging via optimization in non-uniform sampling sparsity," <i>Optics Letters</i>, 2023, vol. 48, no. 23, pp. 6255-6258.
-                            [<a href="https://opg.optica.org/ol/viewmedia.cfm?uri=ol-48-23-6255" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span>Hanwen Xu#, <b>Daoyu Li</b>#, Xuyang Chang, Yunhui Gao, Xiaoyan Luo, Jun Yan, Liangcai Cao, Dong Xu, Liheng Bian*, "Deep nonlocal low-rank regularization for complex-domain pixel super-resolution," <i>Optics Letters</i>, 2023, vol. 48, no. 20, pp. 5277-5280.
-                            [<a href="https://opg.optica.org/ol/viewmedia.cfm?uri=ol-48-20-5277" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span><b>Daoyu Li</b>#, Zhijie Gao, Liheng Bian*, "Efficient large-scale single-pixel imaging," <i>Optics Letters</i>, 2022, vol. 47, no. 21, pp. 5461-5464.
-                            [<a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-47-21-5461" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                    <p class="pcontainer">
-                        <span><b>Daoyu Li</b>#, Liheng Bian*, Jun Zhang, "High-speed large-scale imaging using frame decomposition from intrinsic multiplexing of motion," <i>IEEE Journal of Selected Topics in Signal Processing</i>, 2022, vol. 16, no. 6, pp. 1343-1346.
-                            [<a href="https://ieeexplore.ieee.org/document/9749015/" target="_blank">Link</a>]
-                        </span>
-                    </p>
-
-                <A NAME="Awards">
-                    <h2><i class="fa fa-gift" aria-hidden="true"></i>&nbsp;&nbsp;Awards</h2>
-                </A>
-                <font size="3">
-                    <ul>
-                        <li>2022, ECCV MIPI Challenge, 4th place |
-                            <font style="font-family:Microsoft YaHei">ECCV MIPI挑战赛第4名</font>
-                        </li>
-                    </ul>
-                </font>
-
+    <!-- 可选：页脚 -->
+    <footer class="text-center text-muted mt-5 py-3 border-top">
+        <small>© 2024 Daoyu Li. All rights reserved.</small>
+    </footer>
 </body>
-
 </html>
