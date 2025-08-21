@@ -26,8 +26,8 @@
         }
 
         .profile-photo {
-            width: 175px;  /* 4:3比例计算：175*(4/3)=233 */
-            height: 233px;
+            width: 150px;  /* 4:3比例计算：175*(4/3)=233 */
+            height: 200px;
             object-fit: cover; /* 关键属性：保持比例裁剪 */
             border-radius: 5px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -49,6 +49,22 @@
             display: flex;
             gap: 0.5rem;
             margin: 0.5rem 0;
+        }
+
+        .education-item {
+            padding: 1rem 1rem 1rem 2.5rem;
+            border-left: 2px solid transparent;
+            position: relative;
+            line-height: 1;
+        }
+        .education-item:before {
+            content: "·";
+            position: absolute;
+            left: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 3rem;
+            color: #2575fc;
         }
 
         .publication-list {
@@ -99,14 +115,13 @@
     </style>
 </head>
 
-<body class="container-lg">
+<body class="container-lg" style="font-family: 'Georgia', 'Microsoft YaHei';">
     <header class="profile-section">
         <img src="./Files/photo.jpg" alt="Daoyu Li's profile photo" class="profile-photo">
         <div class="profile-info">
             <h1>
                 <i class="fas fa-graduation-cap"></i>
-                Dr. Daoyu Li 
-                <span style="font-family: 'Microsoft YaHei';">李道钰</span>
+                Dr. Daoyu Li   李道钰
             </h1>
             
             <div class="badge-group">
@@ -115,13 +130,13 @@
                 <span class="badge bg-info">Deep Learning</span>
             </div>
 
-            <div class="mt-3">
+            <!-- <div class="mt-3">
                 <i class="fas fa-university text-secondary me-2"></i>
                 <span class="h5 mb-0">
-                    Ph.D.
+                    Ph. D.
                     <span class="text-muted">@ Beijing Institute of Technology</span>
                 </span>
-            </div>
+            </div> -->
 
             <div class="mt-3">
                 <p>
@@ -139,9 +154,28 @@
                         <i class="fas fa-graduation-cap"></i> Google Scholar
                     </a>
                 </div>
+
             </div>
         </div>
     </header>
+
+    <section>
+        <h2 id="education-section" class="section-title">
+            <i class="fas fa-graduation-cap me-2"></i>Education
+        </h2>
+        
+        <div class="education-item">
+            <div class="education-period">2019 - 2024, Beijing Institute of Technology 北京理工大学, Ph. D. 博士</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="education-period">2017 - 2019, Beijing Institute of Technology 北京理工大学, M. E. 硕士</div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-period">2013 - 2017, Nanjing University of Science and Technology 南京理工大学, B. E. 学士</div>
+        </div>
+    </section>
 
 
     <section>
