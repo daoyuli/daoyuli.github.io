@@ -66,6 +66,16 @@
             font-size: 3rem;
             color: #2575fc;
         }
+        
+        .experience-content {
+            padding: 0.75rem 1rem 0rem 0.75rem;
+            border-left: 2px solid transparent;
+            position: relative;
+            line-height: 1;
+        }
+        .experience-content p {
+            line-height: 2; /* 修改行高为2 */
+        }
 
         .publication-list {
             counter-reset: publication-counter; /* 初始化计数器 */
@@ -179,276 +189,130 @@
 
 
     <section>
-    <h2 id="research-interests" class="section-title">
-        <i class="fas fa-microscope"></i> Research Interests
-    </h2>
-    
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <!-- 研究方向1 -->
-        <div class="col">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body">
-                    <h3 class="h5">
-                        <i class="fas fa-camera-retro text-primary me-2"></i>
-                        Computational Photography
-                    </h3>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">High-speed Imaging Systems</div>
-                                    <div class="mt-1">
-                                        <a href="https://www.nature.com/articles/s41467-024-53747-8" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Nat. Commun.
-                                        </a>
-                                        <a href="https://doi.org/10.1038/s41467-024-50288-y" 
-                                            target="_blank" 
-                                            class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Nat. Commun.
-                                        </a>
-                                        <a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-3-972" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Lett.
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+        <h2 id="experience" class="section-title">
+            <i class="fas fa-microscope"></i> Experience
+        </h2>
 
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Spectral Imaging</div>
-                                    <div class="mt-1">
-                                        <a href="https://www.nature.com/articles/s41467-024-53747-8" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Nat. Commun.
-                                        </a>
-                                        <a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-3-972" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Lett.
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Single Pixel Imaging</div>
-                                    <div class="mt-1">
-                                        <a href="https://doi.org/10.1364/OL.472680" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Lett.
-                                        </a>
-                                        <a href="https://doi.org/10.1364/OL.509822" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Lett.
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <div class="experience-item">
+        <h3 class="h5">
+            <i class="fas fa-camera-retro text-primary me-2"></i>
+            Computational Imaging System 计算成像系统
+        </h3>
+        <div class="experience-content">
+            <p>1. 提出基于扫描式光谱成像与时-空-谱信息压缩感知/解耦的高光谱成像方法，首次实现同时满足近百万像素、百帧每秒、上千谱段、覆盖可见光到近红外的高通量高光谱成像，实现低成本微秒级多光谱成像技术，大幅降低设备成本。相关成果获美国工程院院士Richard D. Braatz推荐：“拓展了光谱成像的能力边界”。
+                <a href="https://www.nature.com/articles/s41467-024-53747-8" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none">
+                    <i class="fas fa-external-link-alt fa-xs me-2"></i>
+                    Nat. Commun.
+                </a>
+                <a href="https://opg.optica.org/ol/abstract.cfm?uri=ol-50-3-972" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none">
+                    <i class="fas fa-external-link-alt fa-xs me-2"></i>
+                    Opt. Lett.
+                </a>
+            </p>
         </div>
+        <div class="experience-content">
+            <p>2. 提出统计最优的稀疏压缩感知采集与重建方法，实现了低成本、大规模的毫米波安检成像与高效的单像素成像。
 
-        <!-- 研究方向2 -->
-        <div class="col">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body">
-                    <h3 class="h5">
-                        <i class="fas fa-eye text-success me-2"></i>
-                        Computer Vision
-                    </h3>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Demosaicing/Nonlocal Compressive Sensing Algorithm</div>
-                                    <div class="mt-1">
-                                        <a href="https://example.com/paper2" 
-                                            target="_blank" 
-                                            class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            IEEE T. Multimedia
-                                        </a>
-                                        <a href="https://opg.optica.org/ol/viewmedia.cfm?uri=ol-48-20-5277" 
-                                            target="_blank" 
-                                            class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Lett.
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Image Enhancement</div>
-                                    <div class="mt-1">
-                                        <a href="https://doi.org/10.1016/j.optlastec.2025.112834" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Laser Tech.
-                                        </a>
-                                        <a href="https://proceedings.bmvc2023.org/315/" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            BMVC
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <a href="https://doi.org/10.1038/s41467-024-50288-y" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    Nat. Commun.
+                </a>
+                <a href="https://doi.org/10.1364/OL.472680" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    Opt. Lett.
+                </a>
+                <a href="https://doi.org/10.1364/OL.509822" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    Opt. Lett.
+                </a>
+            </p>
         </div>
+    </div>
 
-        <!-- 研究方向3 -->
-        <div class="col">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body">
-                    <h3 class="h5">
-                        <i class="fas fa-brain text-info me-2"></i>
-                        Deep Learning
-                    </h3>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Generalized Augmentation</div>
-                                    <div class="mt-1">
-                                        <a href="https://doi.org/10.1016/j.optlastec.2025.112834" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Laser Tech.
-                                        </a>
-                                        <a href="https://proceedings.bmvc2023.org/315/" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            BMVC
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Fusion of Optimization and Neural Network</div>
-                                    <div class="mt-1">
-                                        <a href="https://doi.org/10.1038/s41467-024-50288-y" 
-                                            target="_blank" 
-                                            class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Nat. Commun.
-                                        </a>
-                                        <a href="https://opg.optica.org/ol/viewmedia.cfm?uri=ol-48-20-5277" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Lett.
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <div class="experience-item">
+        <h3 class="h5">
+            <i class="fas fa-brain text-info me-2"></i>
+            Computational Imaging Algorithm 计算成像算法
+        </h3>
+        <div class="experience-content">
+            <p>1. 提出深度学习与优化算法融合，面向大规模、高分辨、阵列图像恢复的高效高精度计算重建算法；
+                优化神经网络调控方法，将优化理论嵌入深度神经网络，实现通用图像增强。
+                <a href="https://doi.org/10.1038/s41467-024-50288-y" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    Nat. Commun.
+                </a>
+                <a href="https://doi.org/10.1016/j.optlastec.2025.112834" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    Opt. Laser. Eng.
+                </a>
+                <a href="https://proceedings.bmvc2023.org/315/" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    BMVC
+                </a>
+            </p>
         </div>
-
-        <!-- 研究方向4 -->
-        <div class="col">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body">
-                    <h3 class="h5">
-                        <i class="fas fa-desktop text-warning me-2"></i>
-                        HDR Display
-                    </h3>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Gain Map HDR Theories</div>
-                                    <!-- <div class="mt-1">
-                                        <a href="https://example.com/paper1" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Laser Tech.
-                                        </a>
-                                        <a href="https://proceedings.bmvc2023.org/315/" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            BMVC
-                                        </a>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="mb-3">
-                            <div class="d-flex align-items-start">
-                                <i class="fas fa-angle-right text-muted mt-1 me-2"></i>
-                                <div>
-                                    <div class="fw-medium">Deep-learning-based HDR Algorithm and Its Deployment</div>
-                                    <!-- <div class="mt-1">
-                                        <a href="https://doi.org/10.1038/s41467-024-50288-y" 
-                                            target="_blank" 
-                                            class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Nat. Commun.
-                                        </a>
-                                        <a href="https://opg.optica.org/ol/viewmedia.cfm?uri=ol-48-20-5277" 
-                                           target="_blank" 
-                                           class="badge bg-light text-dark text-decoration-none me-2">
-                                            <i class="fas fa-external-link-alt fa-xs me-1"></i>
-                                            Opt. Lett.
-                                        </a>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="experience-content">
+            <p>2. 提出基于运动模糊的成像加速模型与方法与仿射运动模糊模型，从单张模糊图提取视频，提升成像系统帧率一个数量级以上。
+                <a href="https://ieeexplore.ieee.org/document/9749015/" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    IEEE J-STSP
+                </a>
+            </p>
         </div>
+        <div class="experience-content">
+            <p>3. 提出基于非局部低秩思想的新型压缩感知重建算法，面向大规模多通道光谱图像解耦重建任务，大幅提升精度的同时将计算效率提高两个数量级。
+                <a href="https://example.com/paper2" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    IEEE TMM
+                </a>
+                <a href="https://opg.optica.org/ol/viewmedia.cfm?uri=ol-48-20-5277" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    Opt. Lett.
+                </a>
+            </p>
+        </div>
+    </div>
 
+    <div class="experience-item">
+        <h3 class="h5">
+            <i class="fas fa-desktop text-warning me-2"></i>
+            Gain Map HDR theory 增益图HDR理论
+        </h3>
+        <div class="experience-content">
+            <p>1. Gain Map HDR显示标准与理论，HDR显示观感的色貌学机理。
+                <a href="https://daoyuli.github.io/Files/Simulating HDR Visual Perception on Arbitrary Displays.pdf" 
+                    target="_blank" 
+                    class="badge bg-light text-dark text-decoration-none me-2">
+                    <i class="fas fa-external-link-alt fa-xs me-1"></i>
+                    Link
+                </a>
+            </p>
+        </div>
+        <div class="experience-content">
+            <p>2. 深度学习驱动的HDR显示算法、亮度拓展算法，及其端侧部署。</p>
+        </div>
     </div>
     </section>
 
