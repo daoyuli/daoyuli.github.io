@@ -11,13 +11,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     
-    <!-- 本地资源 -->
-    <link rel="stylesheet" href="./Files/jemdoc.css">
-    <link rel="icon" type="image/x-icon" href="./Files/favicon.ico">
-    
     <title>Daoyu Li Homepage</title>
     
     <style>
+        body {
+            font-family: 'Inter', 'Roboto', 'Open Sans', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+        }
+
+        h1, h2, h3, .section-title {
+            color: #224b8d;
+            border-bottom: 1px solid #aaaaaa;
+            padding-bottom: 0.2em;
+            margin-top: 0.7em;
+            margin-bottom: 0.3em;
+        }
+
+        h1 { font-size: 165%; }
+        h2 { font-size: 125%; padding-top: 0.5em; }
+        h3 { font-size: 110%; border-bottom: none; }
+
+        a {
+            color: #224b8d;
+            text-decoration: none;
+        }
+        a:hover {
+            border-bottom: 1px gray dotted;
+        }
+
         .profile-section {
             display: flex;
             align-items: flex-start;
@@ -107,37 +127,6 @@
 
         p {
             margin-bottom: 0.5rem;
-        }
-
-        /* Profile info right section */
-        .profile-info-right {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 0.5rem;
-            font-size: 0.9em;
-            line-height: 1.5;
-        }
-
-        .profile-info-right h3 {
-            margin: 0.3rem 0;
-            font-size: 1.1em;
-        }
-
-        .profile-info-right .work-role {
-            font-weight: 600;
-            color: #2c3e50;
-        }
-
-        .profile-info-right .work-details {
-            color: #555;
-        }
-
-        .profile-info-right .icon {
-            margin-right: 0.5rem;
-            width: 1em;
-            text-align: center;
         }
     </style>
 </head>
