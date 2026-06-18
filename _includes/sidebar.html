@@ -1,0 +1,42 @@
+<div class="sidebar-inner">
+    <!-- Avatar -->
+    <div class="sidebar-avatar-wrapper">
+        <img src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Daoyu Li" class="sidebar-avatar">
+    </div>
+
+    <!-- Name -->
+    <div class="sidebar-name">Dr. Daoyu Li</div>
+    <div class="sidebar-name-zh">李道钰</div>
+
+    <!-- Separator -->
+    <hr class="sidebar-divider">
+
+    <!-- Navigation -->
+    <nav class="sidebar-nav">
+        <a href="{{ '/' | relative_url }}" class="sidebar-nav-link {% if page.url == '/' %}active{% endif %}">
+            <i class="fas fa-home"></i> Home
+        </a>
+        <a href="{{ '/repo/' | relative_url }}" class="sidebar-nav-link {% if page.url == '/repo/' %}active{% endif %}">
+            <i class="fas fa-box-archive"></i> Repo
+        </a>
+        <a href="{{ '/research/' | relative_url }}" class="sidebar-nav-link {% if page.url == '/research/' %}active{% endif %}">
+            <i class="fas fa-pen-to-square"></i> Research
+        </a>
+    </nav>
+
+    <!-- Separator -->
+    <hr class="sidebar-divider">
+
+    <!-- Social links -->
+    <div class="sidebar-social">
+        <a href="mailto:DaoyuLi@outlook.com" title="Email" class="sidebar-social-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=gc59YSkAAAAJ" target="_blank" title="Google Scholar" class="sidebar-social-link">
+            <i class="fas fa-graduation-cap"></i>
+        </a>
+        <a href="https://github.com/daoyuli" target="_blank" title="GitHub" class="sidebar-social-link">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</div>

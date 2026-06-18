@@ -1,0 +1,14 @@
+<section>
+    <h2 class="section-title">
+        <i class="fas fa-award"></i> Awards
+    </h2>
+    <ul class="list-unstyled">
+        {% for award in site.data.awards %}
+        <li class="mb-3">
+            <i class="fas fa-trophy text-warning"></i>
+            {{ award.name }}
+            <span class="text-muted">（{{ award.name_zh }}）</span>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

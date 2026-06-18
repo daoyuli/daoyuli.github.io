@@ -1,0 +1,22 @@
+<section>
+    <h2 class="section-title">
+        <i class="fas fa-book"></i> Publications
+    </h2>
+    <div class="publication-list">
+        {% for pub in site.data.publications %}
+        <div class="publication-item">
+            {{ pub.authors }}.
+            "{{ pub.title }}"
+            {% if pub.journal %}
+            <strong><em>{{ pub.journal }}</em></strong>,
+            {% endif %}
+            {{ pub.year }}.
+            {% for link in pub.links %}
+            <a href="{{ link.url }}" target="_blank" class="badge bg-primary text-decoration-none">
+                {{ link.label }}
+            </a>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</section>

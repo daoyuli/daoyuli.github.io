@@ -1,0 +1,18 @@
+# Manually curated GitHub repositories
+# To add a repo, copy the block below and fill in the fields
+
+- name: HDRGainMapAnalyzer
+  description: Analyze ISO 21496-1 HDR gain map JPEG files — inspect gain map metadata, visualize HDR content, and validate compliance.
+  tags:
+    - HDR
+    - Python
+    - Image Processing
+  url: https://github.com/daoyuli/HDRGainMapAnalyzer
+
+- name: SimulateHdrContentOnSdrScreen
+  description: Simulate HDR visual perception on arbitrary SDR displays by modeling the human visual system's adaptation to luminance and color.
+  tags:
+    - HDR
+    - Python
+    - Visual Perception
+  url: https://github.com/daoyuli/SimulateHdrContentOnSdrScreen

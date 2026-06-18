@@ -1,0 +1,8 @@
+# News items (newest first)
+
+- date: "2026.04"
+  text: "I have released a gain map analyzer for ISO 21496-1 HDR gain map JPEG."
+  badges:
+    - label: Code
+      url: https://github.com/daoyuli/HDRGainMapAnalyzer
+      class: bg-primary

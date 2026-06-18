@@ -1,0 +1,292 @@
+/* ============================================================
+   Typography & Base
+   ============================================================ */
+
+body {
+    font-family: 'Georgia', 'Microsoft YaHei', serif;
+}
+
+h1, h2, h3, .section-title {
+    color: #224b8d;
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 0.2em;
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+}
+
+h1 { font-size: 165%; }
+h2 { font-size: 125%; padding-top: 0.5em; }
+h3 { font-size: 110%; border-bottom: none; }
+
+a {
+    color: #224b8d;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px gray dotted;
+}
+
+.badge {
+    font-size: 0.85em;
+    padding: 0.3em 0.6em;
+}
+
+.btn {
+    padding: 0.3em 0.6em;
+    font-size: 0.9em;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+.badge-group {
+    display: flex;
+    gap: 0.3rem;
+    margin: 0.3rem 0;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================================
+   Section titles
+   ============================================================ */
+
+.section-title {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.3rem;
+    margin: 1rem 0 0.5rem;
+    font-size: 1.2em;
+}
+
+/* ============================================================
+   Publication list (numbered)
+   ============================================================ */
+
+.publication-list {
+    counter-reset: publication-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+.publication-item {
+    counter-increment: publication-counter;
+    position: relative;
+    padding-left: 2.5rem;
+    margin: 1rem 0;
+}
+
+.publication-item::before {
+    content: "[" counter(publication-counter) "]";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 0.9em;
+}
+
+/* ============================================================
+   Layout: sidebar + main content
+   ============================================================ */
+
+.layout-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ============================================================
+   Sidebar
+   ============================================================ */
+
+.sidebar {
+    width: 260px;
+    min-width: 260px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.sidebar-inner {
+    padding: 2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Avatar */
+.sidebar-avatar-wrapper {
+    margin-bottom: 0.8rem;
+}
+
+.sidebar-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #224b8d;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* Name */
+.sidebar-name {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #224b8d;
+    line-height: 1.3;
+}
+
+.sidebar-name-zh {
+    font-size: 0.95em;
+    color: #666;
+    margin-top: 0.15rem;
+}
+
+/* Divider */
+.sidebar-divider {
+    width: 60%;
+    margin: 1rem auto;
+    border: none;
+    border-top: 1px solid #ddd;
+    opacity: 1;
+}
+
+/* Navigation links */
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.25rem;
+}
+
+.sidebar-nav-link {
+    display: block;
+    padding: 0.55rem 1rem;
+    border-radius: 6px;
+    color: #444;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    text-align: left;
+}
+
+.sidebar-nav-link i {
+    width: 1.5em;
+    text-align: center;
+    margin-right: 0.4em;
+    color: #888;
+}
+
+.sidebar-nav-link:hover {
+    background-color: #e9ecef;
+    color: #224b8d;
+    border-bottom: none;
+}
+
+.sidebar-nav-link.active {
+    background-color: #e0e7f1;
+    color: #224b8d;
+    font-weight: 600;
+    border-left: 3px solid #224b8d;
+}
+
+.sidebar-nav-link.active i {
+    color: #224b8d;
+}
+
+/* Social icons */
+.sidebar-social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.sidebar-social-link {
+    color: #888;
+    font-size: 1.25em;
+    transition: color 0.15s ease;
+}
+
+.sidebar-social-link:hover {
+    color: #224b8d;
+    border-bottom: none;
+}
+
+/* ============================================================
+   Main content area
+   ============================================================ */
+
+.main-content {
+    flex: 1;
+    padding: 2rem 2.5rem;
+    max-width: 900px;
+    width: 100%;
+}
+
+/* ============================================================
+   Mobile top bar (hidden on desktop, shown on mobile)
+   ============================================================ */
+
+.mobile-topbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.mobile-topbar .navbar-brand {
+    font-size: 1em;
+    font-weight: 600;
+    color: #224b8d;
+}
+
+/* ============================================================
+   Responsive: mobile (<768px)
+   ============================================================ */
+
+@media (max-width: 767px) {
+    .layout-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        position: static;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .sidebar.collapse:not(.show) {
+        display: none;
+    }
+
+    .sidebar-inner {
+        padding: 1rem 1rem;
+    }
+
+    .sidebar-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .sidebar-divider {
+        margin: 0.5rem auto;
+    }
+
+    .main-content {
+        padding: 1rem 1rem;
+        max-width: 100%;
+    }
+}

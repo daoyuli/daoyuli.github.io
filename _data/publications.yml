@@ -1,0 +1,91 @@
+# Publications list (order preserved from original site)
+
+- authors: "<strong>Daoyu Li</strong>, et al."
+  title: "Efficient high-fidelity global low-rank optimization for multispectral demosaicing."
+  journal: "IEEE Transactions on Multimedia"
+  year: 2025
+  links:
+    - label: Link
+      url: https://ieeexplore.ieee.org/document/11302146
+
+- authors: "<strong>Daoyu Li</strong>"
+  title: "Simulating HDR Visual Perception on Arbitrary Displays."
+  journal: null
+  year: 2025
+  links:
+    - label: Link
+      url: https://daoyuli.github.io/Files/Simulating%20HDR%20Visual%20Perception%20on%20Arbitrary%20Displays.pdf
+    - label: Code
+      url: https://github.com/daoyuli/SimulateHdrContentOnSdrScreen
+
+- authors: "<strong>Daoyu Li</strong>, et al."
+  title: "Linear optimization of neurons (LION) for computational photography augmentation."
+  journal: "Optics and Laser Technology"
+  year: 2025
+  links:
+    - label: Link
+      url: https://doi.org/10.1016/j.optlastec.2025.112834
+
+- authors: "<strong>Daoyu Li</strong>#, et al."
+  title: "High-speed spectral imaging via multispectral pulse illumination and temporal-spectral decoupling."
+  journal: "Optics Letters"
+  year: 2025
+  links:
+    - label: Link
+      url: https://opg.optica.org/ol/abstract.cfm?uri=ol-50-3-972
+
+- authors: "<strong>Daoyu Li</strong>, et al."
+  title: "SpectraTrack: Megapixel, Hundred-fps, and Thousand-channel Hyperspectral Imaging."
+  journal: "Nature Communications"
+  year: 2024
+  links:
+    - label: Link
+      url: https://www.nature.com/articles/s41467-024-53747-8
+
+- authors: "<strong>Daoyu Li</strong>#, et al."
+  title: "Towards large-scale single-shot millimeter-wave imaging for low-cost security inspection."
+  journal: "Nature Communications"
+  year: 2024
+  links:
+    - label: Link
+      url: https://doi.org/10.1038/s41467-024-50288-y
+
+- authors: "<strong>Daoyu Li</strong>, et al."
+  title: "Generalized Imaging Augmentation via Linear Optimization of Neurons."
+  journal: "BMVC"
+  year: 2023
+  links:
+    - label: Link
+      url: https://proceedings.bmvc2023.org/315/
+
+- authors: "<strong>Daoyu Li</strong>#, et al."
+  title: "Sparse single-pixel imaging via optimization in non-uniform sampling sparsity."
+  journal: "Optics Letters"
+  year: 2023
+  links:
+    - label: Link
+      url: https://doi.org/10.1364/OL.509822
+
+- authors: "<strong>Daoyu Li</strong>#, et al."
+  title: "Deep nonlocal low-rank regularization for complex-domain pixel super-resolution."
+  journal: "Optics Letters"
+  year: 2023
+  links:
+    - label: Link
+      url: https://opg.optica.org/ol/viewmedia.cfm?uri=ol-48-20-5277
+
+- authors: "<strong>Daoyu Li</strong>, et al."
+  title: "Efficient large-scale single-pixel imaging."
+  journal: "Optics Letters"
+  year: 2022
+  links:
+    - label: Link
+      url: https://doi.org/10.1364/OL.472680
+
+- authors: "<strong>Daoyu Li</strong>, et al."
+  title: "High-speed large-scale imaging using frame decomposition from intrinsic multiplexing of motion."
+  journal: "IEEE Journal of Selected Topics in Signal Processing"
+  year: 2022
+  links:
+    - label: Link
+      url: https://ieeexplore.ieee.org/document/9749015/

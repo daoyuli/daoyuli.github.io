@@ -1,0 +1,27 @@
+# Site settings
+title: Daoyu Li
+email: DaoyuLi@outlook.com
+description: Personal academic homepage of Dr. Daoyu Li — Computational Photography, Computer Vision, Colour Science
+url: "https://daoyuli.github.io"
+
+# Build settings
+markdown: kramdown
+
+# Research collection
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+# Default frontmatter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: research-article

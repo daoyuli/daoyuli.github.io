@@ -1,0 +1,17 @@
+<section>
+    <h2 class="section-title">
+        <i class="fas fa-rocket"></i> News
+    </h2>
+    <ul class="list-unstyled">
+        {% for item in site.data.news %}
+        <li class="mb-3">
+            {{ item.date }}: {{ item.text }}
+            {% for badge in item.badges %}
+            <a href="{{ badge.url }}" target="_blank" class="badge {{ badge.class }} text-decoration-none">
+                {{ badge.label }}
+            </a>
+            {% endfor %}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
