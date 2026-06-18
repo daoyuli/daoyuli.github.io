@@ -3,15 +3,16 @@
 
 - name: HDRGainMapAnalyzer
   description: Analyze ISO 21496-1 HDR gain map JPEG files.
+  tags:
     - HDR
+    - Gain Map
     - Python
-    - Image Processing
   url: https://github.com/daoyuli/HDRGainMapAnalyzer
 
 - name: SimulateHdrContentOnSdrScreen
   description: Simulate HDR visual perception on arbitrary SDR displays by modeling the human visual system's adaptation to luminance.
   tags:
     - HDR
-    - Python
     - Visual Perception
+    - Python
   url: https://github.com/daoyuli/SimulateHdrContentOnSdrScreen
