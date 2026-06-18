@@ -7,10 +7,13 @@
         <div class="publication-item">
             {{ pub.authors }}.
             "{{ pub.title }}"
+            <br>
+            <span class="text-muted ms-4">
             {% if pub.journal %}
             <strong><em>{{ pub.journal }}</em></strong>,
             {% endif %}
             {{ pub.year }}.
+            </span>
             {% for link in pub.links %}
             <a href="{{ link.url }}" target="_blank" class="badge bg-primary text-decoration-none">
                 {{ link.label }}
