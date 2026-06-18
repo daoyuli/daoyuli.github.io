@@ -6,7 +6,7 @@ permalink: /repo/
 
 <h1><i class="fas fa-box-archive"></i> Repositories</h1>
 
-<p class="text-muted">Selected open-source projects. Each repository is manually curated with a brief description.</p>
+<!-- <p class="text-muted">Selected open-source projects. Each repository is manually curated with a brief description.</p> -->
 
 {% if site.data.repos %}
 <div class="row g-4 mt-2">

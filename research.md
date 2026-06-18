@@ -6,7 +6,7 @@ permalink: /research/
 
 <h1><i class="fas fa-pen-to-square"></i> Research</h1>
 
-<p class="text-muted">Industry analysis, technical deep-dives, and research notes. Sorted by date (newest first).</p>
+<!-- <p class="text-muted">Industry analysis, technical deep-dives, and research notes. Sorted by date (newest first).</p> -->
 
 {% assign articles = site.research | sort: 'date' | reverse %}
 {% if articles.size > 0 %}

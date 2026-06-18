@@ -16,7 +16,7 @@ permalink: /
     <p>
         I am currently a system engineer at Honor Device Corp. My work involves HDR standards and AI algorithms. I received my Ph.D. in Computational Photography from Beijing Institute of Technology (BIT) in 2024.
     </p>
-    <p>
+    <!-- <p>
         <i class="fas fa-envelope"></i>
         <a href="mailto:DaoyuLi@outlook.com">DaoyuLi@outlook.com</a>
     </p>
@@ -24,7 +24,7 @@ permalink: /
         <a href="https://scholar.google.com/citations?user=gc59YSkAAAAJ" target="_blank" class="btn btn-outline-dark btn-sm">
             <i class="fas fa-graduation-cap"></i> Google Scholar
         </a>
-    </div>
+    </div> -->
 </div>
 
 {% include news-list.html %}

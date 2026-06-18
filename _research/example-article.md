@@ -13,7 +13,7 @@ The ISO 21496-1 standard defines a **gain map** as an auxiliary image that encod
 
 1. **Base Image**: A standard SDR JPEG that looks correct on any conventional display
 2. **Gain Map**: A secondary image encoding luminance ratios — typically stored as a JPEG auxiliary image or in MPF (Multi-Picture Format)
-3. **HDR Reconstruction**: `HDR_pixel = SDR_pixel × gain_map_pixel` (simplified)
+3. **HDR Reconstruction**: `HDR_pixel = SDR_pixel × 2^gain_map_pixel` (simplified)
 
 ## Why ISO 21496-1 Matters
 
@@ -29,10 +29,5 @@ ISO 21496-1 bridges the gap: it wraps HDR into the ubiquitous JPEG format, makin
 I created [HDRGainMapAnalyzer](https://github.com/daoyuli/HDRGainMapAnalyzer) to inspect and visualize gain map JPEG files. It helps developers and researchers:
 
 - Parse gain map metadata from JPEG files
-- Visualize the gain map as a heatmap
-- Verify compliance with the ISO 21496-1 specification
-
-## Further Reading
-
-- [ISO 21496-1:2024](https://www.iso.org/standard/86750.html)
-- [Android Gainmap Documentation](https://source.android.com/docs/core/camera/gainmap)
+- Visualize the gain map
+- Analyze gain map statistics
