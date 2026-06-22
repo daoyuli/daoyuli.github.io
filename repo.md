@@ -24,8 +24,8 @@ permalink: /repo/
                         <span class="badge bg-secondary">{{ tag }}</span>
                         {% endfor %}
                     </div>
-                    <a href="{{ repo.url }}" target="_blank" class="btn btn-outline-primary btn-sm">
-                        <i class="fab fa-github"></i> View on GitHub &rarr;
+                    <a href="{{ repo.url }}" target="_blank" class="btn btn-outline-primary btn-sm" title="View on GitHub">
+                        <i class="fab fa-github"></i>
                     </a>
                 </div>
             </div>
