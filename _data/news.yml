@@ -8,7 +8,7 @@
       class: bg-primary
 
 - date: "2025.09"
-  text: "A technical report on simulating HDR visual perception on arbitrary SDR displays is now available."
+  text: "I have released a simulation tool to reproduce HDR visual perception on arbitrary SDR displays."
   badges:
     - label: Research
       url: /research/hdr-visual-perception/
