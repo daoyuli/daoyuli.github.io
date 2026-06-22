@@ -6,3 +6,13 @@
     - label: Code
       url: https://github.com/daoyuli/HDRGainMapAnalyzer
       class: bg-primary
+
+- date: "2025.09"
+  text: "A technical report on simulating HDR visual perception on arbitrary SDR displays is now available."
+  badges:
+    - label: Research
+      url: /research/hdr-visual-perception/
+      class: bg-success
+    - label: Code
+      url: https://github.com/daoyuli/SimulateHdrContentOnSdrScreen
+      class: bg-primary

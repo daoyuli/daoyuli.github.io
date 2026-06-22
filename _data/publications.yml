@@ -8,16 +8,6 @@
     - label: Link
       url: https://ieeexplore.ieee.org/document/11302146
 
-- authors: "<strong>Daoyu Li</strong>"
-  title: "Simulating HDR Visual Perception on Arbitrary Displays."
-  journal: null
-  year: 2025
-  links:
-    - label: Link
-      url: https://daoyuli.github.io/Files/Simulating%20HDR%20Visual%20Perception%20on%20Arbitrary%20Displays.pdf
-    - label: Code
-      url: https://github.com/daoyuli/SimulateHdrContentOnSdrScreen
-
 - authors: "<strong>Daoyu Li</strong>, et al."
   title: "Linear optimization of neurons (LION) for computational photography augmentation."
   journal: "Optics and Laser Technology"
