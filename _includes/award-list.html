@@ -6,8 +6,7 @@
         {% for award in site.data.awards %}
         <li class="mb-3">
             <i class="fas fa-trophy text-warning"></i>
-            {{ award.name }}
-            {% if award.year %}<span class="text-muted">({{ award.year }})</span>{% endif %}
+            {% if award.year %}<span class="text-muted">{{ award.year }}</span> {% endif %}{{ award.name }}
             <br>
             <span class="text-muted ms-4">{{ award.name_zh }}</span>
         </li>
